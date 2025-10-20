@@ -5,9 +5,10 @@ The pipeline will extract data from 3 different sources, one will be web scrappi
 Using `web scraping`, basic details such as geographical location and population of the cities is extracted. We extract these information from [Wikipedia](https://www.wikipedia.org/).
 
 ## Data Collection: APIs
-We use two APIs to extract data related to the weather and flight arrivals in the selected cities.
+We use two APIs to extract data related to the weather and flight arrivals in the selected cities. You need to obtain your own API keys to access these APIs. Place those keys in the `.env` file in the repository to load them when running the `main.ipynb` file. Make sure to name the files to suit the loading method used in the notebook and python files.
+
 1. [OpenWeather API](https://openweathermap.org/api) is used to get weather information such as temperature, wind speed, rain in the last 3 hours, and forecast.
-2. [AeroDataBox API](https://rapidapi.com/aedbx-aedbx/api/aerodatabox)
+2. [AeroDataBox API](https://rapidapi.com/aedbx-aedbx/api/aerodatabox) is used to get the arrival information of flights in the selected cities.
 
 
 ## SQL Database
