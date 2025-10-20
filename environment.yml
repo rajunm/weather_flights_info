@@ -1,0 +1,10 @@
+name: gans_proj_env
+channels:
+  - defaults
+dependencies:
+  - pymysql
+  - python-dotenv
+  - pandas
+  - sqlalchemy
+  - jupyterlab
+prefix: D:\Miniconda\files\envs\gans_proj_env
