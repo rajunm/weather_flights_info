@@ -51,7 +51,6 @@ CREATE TABLE cities_airports (
 );
 
 
-
 CREATE TABLE flights (
     id INT AUTO_INCREMENT,
     arrival_airport_icao VARCHAR(10),
@@ -62,5 +61,3 @@ CREATE TABLE flights (
     PRIMARY KEY (id),
     FOREIGN KEY (arrival_airport_icao) REFERENCES cities_airports(icao_code)
 );
-
-
