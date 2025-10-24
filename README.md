@@ -12,7 +12,7 @@ We use two APIs to extract data related to the weather and flight arrivals in th
 
 
 ## SQL Database
-The `sql_commands.txt` file in the repository contains the SQL commands that we execute on MySQL workbench to create the required database with necessary tables. 
+The `sql_commands.sql` file in the repository contains the SQL commands that we execute on MySQL workbench to create the required database with necessary tables. 
 
 ### Schema of the Database
 ![Schema](/images/sql_database_schema.png)
@@ -20,3 +20,4 @@ The `sql_commands.txt` file in the repository contains the SQL commands that we 
 ## Tools and Technologies
 - Python (Pandas, Requests, BeautifulSoup)
 - Jupyter Notebook
+- SQL (MySQL Workbench)
